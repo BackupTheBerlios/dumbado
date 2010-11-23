@@ -19,7 +19,7 @@
 
 GETTEXT_PACKAGE = dumbado_nogui
 PACKAGE = dumbado_nogui
-VERSION = 0.1
+VERSION = 0.2
 
 SHELL = /bin/bash
 

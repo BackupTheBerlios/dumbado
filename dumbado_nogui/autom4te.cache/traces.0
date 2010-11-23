@@ -2351,7 +2351,7 @@ m4trace:configure.ac:5: -1- AM_SILENT_RULES([yes])
 m4trace:configure.ac:5: -1- m4_pattern_allow([^AM_DEFAULT_VERBOSITY$])
 m4trace:configure.ac:5: -1- m4_pattern_allow([^AM_BACKSLASH$])
 m4trace:configure.ac:5: -1- _AM_SUBST_NOTMAKE([AM_BACKSLASH])
-m4trace:configure.ac:7: -1- AM_INIT_AUTOMAKE([dumbado_nogui], [0.1])
+m4trace:configure.ac:7: -1- AM_INIT_AUTOMAKE([dumbado_nogui], [0.2])
 m4trace:configure.ac:7: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
 m4trace:configure.ac:7: -1- AM_SET_CURRENT_AUTOMAKE_VERSION
 m4trace:configure.ac:7: -1- AM_AUTOMAKE_VERSION([1.11.1])

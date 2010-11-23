@@ -1,12 +1,12 @@
 
 [Anjuta]
-Geometry=1593x916+10+10
+Geometry=1593x916+38+34
 
 [Project Manager]
 Shortcut=C file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado_nogui/src dumbado_nogui 
 
 [File Loader]
-Files=file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado_nogui/src/main.c#176
+Files=file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado_nogui/src/main.c#197
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
