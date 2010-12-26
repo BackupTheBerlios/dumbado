@@ -1,0 +1,69 @@
+=== DUMBADO
+
+by Ricard Pradell <mombars@users.berlios.de>
+
+For the latest information on dumbado, please see:
+http://developer.berlios.de/projects/dumbado/
+
+Or, subscribe to the dumbado mailing lists; see
+http://developer.berlios.de/mail/?group_id=12123
+
+
+== What is dumbado?
+
+dumbado is a program that captures packets transmitted over the network, 
+(AKA packet sniffer) and stores statistics based on them for analysis
+or debugging.  
+
+dumbado is based on the libpcap Library and therefore supports the same
+rich filtering expressions that programs like 'tcpdump' support.
+
+It's tested to compile under Debian Testing/Squeeze 64 bits with
+2.6.32-5-amd64 kernel. It has not been tested on any other platform. 
+
+This first version of dumbado, called dumbado_nogui, 
+it's just a concept release and lacks graphical user's interface.
+Hopefully, it will be provided on next releases.
+
+
+== Dependencies
+
+dumbado depends on libpcap Library. It should be installed on the
+system for the program to work.
+
+
+== Installation
+
+See INSTALL file for details. Anyway, you can compile dumbado_nogui.c using
+the command line (linking against libpcap Libraries):
+  gcc -Wall dumbado_nogui.c -lpcap -o dumbado_nogui
+  
+  
+== Basic usage:
+
+  dumbado_nogui <interface> <number_of_packets> <"filter string">
+  
+  +Interface: your network interface
+  +number_of_packets: how many packets you want to capture.
+  +filter string: filter in bpf (Berkeley Packet Filter) format.
+  More information about bpf syntax at http://biot.com/capstats/bpf.html
+
+
+== Security Implications
+
+dumbado needs to be executed as root user. Be aware of the obvious 
+security implications of doing so. Use it at your own risk.
+
+In the wrong hands this program can be used to monitor unauthorised networks.
+I have chosen to release it anyway, because crackers already have tools
+specifically optimized for doing "evil" network sniffing easily, 
+and this program will most likely not make their lives any easier.
+
+
+== Bugs
+
+Please send bug reports to mombars@users.berlios.de
+
+
+Ricard Pradell
+mombars@users.berlios.de
