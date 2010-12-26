@@ -1,0 +1,28 @@
+
+[Anjuta]
+Geometry=1529x928+114+21
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[SymbolDB]
+SystemPackages=libglade-2.0%%%gtk+-2.0
+
+[Execution]
+Program uri=file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado/Debug/src/dumbado
+Run in terminal=2
+Working directories=file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Debug
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
+
+[Project Manager]
+Shortcut=E file:///home/mombars/Espai_treball/UOC-Master/semestre_4/PFM/Projecte/dumbado/src dumbado 
+
+[Debugger]
+Stop at beginning=2
